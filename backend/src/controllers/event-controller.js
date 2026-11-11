@@ -17,7 +17,21 @@ export function getEventById(req, res) {
   res.json(event);
 }
 
-// POST /events (Adım 9)
 export function createEvent(req, res) {
-  res.status(501).json({ error: { message: "Not implemented" } });
+  const { title, category, capacity, date,
+    time, location, description } = req.body ?? {};
+
+  if (!title || !category || !date) {
+    return res.status(400).json({ error:
+      { message: "title, category and date are required" } });
+  }
+  const newEvent = {
+    id: `event-${Date.now()}`,
+    title, category, date,
+    capacity: Number(capacity) || 0,
+    time: time ?? "", location: location ?? "",
+    description: description ?? "",
+  };
+  events.push(newEvent);
+  res.status(201).json(newEvent);
 }
