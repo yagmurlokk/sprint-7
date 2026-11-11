@@ -7,8 +7,8 @@ export const events = [
     time: "14:00",
     location: "A Blok Konferans Salonu",
     description: "Mezunlarla söyleşiler ve staj imkanları.",
-    capacity: 120,
-    image: kariyerGunleriImg
+    capacity: 120
+    
   },
   {
     id: "event-2",
@@ -18,8 +18,8 @@ export const events = [
     time: "10:30",
     location: "Lab 2",
     description: "Mikrodenetleyiciler ve otonom robot tasarımları.",
-    capacity: 30,
-    image: robotikImg 
+    capacity: 30
+     
   },
   {
     id: "event-3",
@@ -29,8 +29,8 @@ export const events = [
     time: "13:00",
     location: "Büyük Salon",
     description: "Yazılım dünyasındaki güncel bulut ve web teknolojileri.",
-    capacity: 250,
-    image:yazilimImg
+    capacity: 250
+    
   },
   {
     id: "event-4",
@@ -40,8 +40,8 @@ export const events = [
     time: "15:00",
     location: "Mühendislik Fakültesi Amfi 1",
     description: "Üretken yapay zeka modelleri üzerine panel.",
-    capacity: 100,
-    image: yapayzekaImg
+    capacity: 100
+    
   },
   {
     id: "event-5",
@@ -51,8 +51,8 @@ export const events = [
     time: "09:00",
     location: "İnovasyon Merkezi",
     description: "24 saatlik kesintisiz mobil arayüz geliştirme maratonu.",
-    capacity: 40,
-    image: mobiluygulamaImg
+    capacity: 40
+    
   },
   {
     id: "event-6",
@@ -62,7 +62,7 @@ export const events = [
     time: "11:00",
     location: "Merkez Kütüphane Konferans Salonu",
     description: "Ağ güvenliği ve siber savunma stratejileri paneli.",
-    capacity: 180,
-    image: siberguvenlikImg 
+    capacity: 180
+    
   },
 ];
