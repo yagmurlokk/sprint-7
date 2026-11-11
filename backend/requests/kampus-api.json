@@ -92,7 +92,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"title\": \"Yapay Zeka Çalıştayı\",\r\n  \"category\": \"Konferans\",\r\n  \"capacity\":\"100\",\r\n  \"date\": \"2026-11-25\",\r\n  \"time\": \"13:30\",\r\n  \"location\": \"SDÜ Mühendislik Fakültesi\",\r\n  \"description\": \"Büyük dil modelleri, üretken yapay zeka araçları ve veri analitiği uygulamalarının ele alınacağı panel oturumları.\"\r\n}",
+          "raw": "{\r\n  \"title\": \"Yapay Zeka Çalıştayı\",\r\n  \"category\": \"Konferans\",\r\n  \"capacity\":\"120\",\r\n  \"date\": \"2026-11-25\",\r\n  \"time\": \"13:30\",\r\n  \"location\": \"SDÜ Mühendislik Fakültesi\",\r\n  \"description\": \"Büyük dil modelleri, üretken yapay zeka araçları ve veri analitiği uygulamalarının ele alınacağı panel oturumları.\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
