@@ -1,12 +1,14 @@
 {
   "info": {
-    "_postman_id": "8f4b2c1a-7d3e-4a9b-b5c6-1d2e3f4a5b6c",
+    "_postman_id": "f8b1be7f-28a6-4621-b18d-83df704fe188",
     "name": "Kampüs API",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60117714",
+    "_collection_link": "https://go.postman.co/collection/60117714-f8b1be7f-28a6-4621-b18d-83df704fe188?source=collection_link"
   },
   "item": [
     {
-      "name": "GET /health",
+      "name": "1 Health",
       "request": {
         "method": "GET",
         "header": [],
@@ -25,7 +27,7 @@
       "response": []
     },
     {
-      "name": "GET /events",
+      "name": "2 Etkinlik listesi",
       "request": {
         "method": "GET",
         "header": [],
@@ -44,7 +46,7 @@
       "response": []
     },
     {
-      "name": "GET /events/event-2",
+      "name": "3 Tek etkinlik",
       "request": {
         "method": "GET",
         "header": [],
@@ -64,7 +66,7 @@
       "response": []
     },
     {
-      "name": "GET /events/yok",
+      "name": "4 olmayan etkinlik",
       "request": {
         "method": "GET",
         "header": [],
@@ -84,19 +86,13 @@
       "response": []
     },
     {
-      "name": "POST /events (tam body)",
+      "name": "5 Etkinlik oluştur",
       "request": {
         "method": "POST",
-        "header": [
-          {
-            "key": "Content-Type",
-            "value": "application/json",
-            "type": "text"
-          }
-        ],
+        "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"title\": \"Git Atölyesi\",\n  \"category\": \"Atölye\",\n  \"date\": \"2026-12-01\",\n  \"capacity\": 30\n}",
+          "raw": "{\r\n  \"title\": \"Yapay Zeka Çalıştayı\",\r\n  \"category\": \"Konferans\",\r\n  \"capacity\":\"100\",\r\n  \"date\": \"2026-11-25\",\r\n  \"time\": \"13:30\",\r\n  \"location\": \"SDÜ Mühendislik Fakültesi\",\r\n  \"description\": \"Büyük dil modelleri, üretken yapay zeka araçları ve veri analitiği uygulamalarının ele alınacağı panel oturumları.\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -118,19 +114,13 @@
       "response": []
     },
     {
-      "name": "POST /events (sadece title)",
+      "name": "6 Eksik veri",
       "request": {
         "method": "POST",
-        "header": [
-          {
-            "key": "Content-Type",
-            "value": "application/json",
-            "type": "text"
-          }
-        ],
+        "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"title\": \"Eksik Etkinlik\"\n}",
+          "raw": "{\r\n  \"title\": \"Eksik Etkinlik\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
